@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item android:id="@+id/navFeedback"
+        android:icon="@drawable/feedback_icon"
+        android:contentDescription="item1"
+        android:title="@string/feedback"
+        tools:ignore="HardcodedText" />
+
+
+    <item android:id="@+id/navSetting"
+        android:contentDescription="item1"
+        android:icon="@drawable/settings_icon"
+        android:title="@string/settings"
+        tools:ignore="HardcodedText" />
+
+
+    <item android:id="@+id/navAbout"
+        android:contentDescription="item1"
+        android:icon="@drawable/about_icon"
+        android:title="@string/about"
+        tools:ignore="HardcodedText" />
+
+    <item android:id="@+id/navExit"
+        android:contentDescription="item1"
+        android:icon="@drawable/exit_icon"
+        android:title="@string/exit"
+        tools:ignore="HardcodedText" />
+
+</menu>
